@@ -1,0 +1,65 @@
+body, html {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header > h1 {
+  margin: auto;
+}
+
+nav {
+  align-content: center;
+  justify-content: flex-end;
+  display: flex;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding-left: 10px;
+  list-style: none;
+}
+
+nav ul li a:link {
+  color: green;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+nav ul li a:visited{
+  color: pink;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+}
+
+article {
+
+}
+aside {
+  float:right;
+}
+
+
+footer {
+
+}
